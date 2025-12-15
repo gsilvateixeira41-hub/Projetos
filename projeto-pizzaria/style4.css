@@ -1,0 +1,32 @@
+body{
+    margin:0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #350202;
+    gap:20px;
+}
+.card{
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+.card img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.card h3{
+    margin: 12px;
+    font-size: 20px;
+}
+.card p{
+    padding: 15px;
+    font-size: 20px;
+    color: black;
+}
